@@ -11,6 +11,9 @@ public class UseLinkedList {
         list.add("FL");
         list.add("AZ");
         list.add("CA");
+        list.add("IN");
+
+        list.remove(0);
         /*
         Iterator it = list.iterator();
         while(it.hasNext()) {
@@ -18,6 +21,9 @@ public class UseLinkedList {
         } */
         for(String st:list){
             System.out.println(st);
+
+            list.remove(0);
+            System.out.println(list);
         }
     }
 }
